@@ -1,16 +1,22 @@
+---
+tocdepth: 2
+---
+
 # CLI commands
 
-The `pebble` command has the following subcommands:
+The `pebble` command has the following subcommands, organised into logical groups:
 
-* Run: [`run`](#reference_pebble_run_command)
-* Info: [`help`](#reference_pebble_help_command), [`version`](#reference_pebble_version_command)
-* Plan: [`add`](#reference_pebble_add_command), [`plan`](#reference_pebble_plan_command)
-* Services: [`services`](#reference_pebble_services_command), [`logs`](#reference_pebble_logs_command), [`start`](#reference_pebble_start_command), [`restart`](#reference_pebble_restart_command), [`signal`](#reference_pebble_signal_command), [`stop`](#reference_pebble_stop_command), [`replan`](#reference_pebble_replan_command)
-* Checks: [`checks`](#reference_pebble_checks_command), [`health`](#reference_pebble_health_command)
-* Files: [`push`](#reference_pebble_push_command), [`pull`](#reference_pebble_pull_command), [`ls`](#reference_pebble_ls_command), [`mkdir`](#reference_pebble_mkdir_command), [`rm`](#reference_pebble_rm_command), [`exec`](#reference_pebble_exec_command)
-* Changes: [`changes`](#reference_pebble_changes_command), [`tasks`](#reference_pebble_tasks_command)
-* Notices: [`warnings`](#reference_pebble_warnings_command), [`okay`](#reference_pebble_okay_command), [`notices`](#reference_pebble_notices_command), [`notice`](#reference_pebble_notice_command), [`notify`](#reference_pebble_notify_command)
-* Identities: [`identities`](#reference_pebble_identities_command), [`identity`](#reference_pebble_identity_command), [`add-identities`](#reference_pebble_add-identities_command), [`update-identities`](#reference_pebble_update-identities_command), [`remove-identities`](#reference_pebble_remove-identities_command)
+* Run: [run](#reference_pebble_run_command)
+* Info: [help](#reference_pebble_help_command), [version](#reference_pebble_version_command)
+* Plan: [add](#reference_pebble_add_command), [plan](#reference_pebble_plan_command)
+* Services: [services](#reference_pebble_services_command), [logs](#reference_pebble_logs_command), [start](#reference_pebble_start_command), [restart](#reference_pebble_restart_command), [signal](#reference_pebble_signal_command), [stop](#reference_pebble_stop_command), [replan](#reference_pebble_replan_command)
+* Checks: [checks](#reference_pebble_checks_command), [health](#reference_pebble_health_command)
+* Files: [push](#reference_pebble_push_command), [pull](#reference_pebble_pull_command), [ls](#reference_pebble_ls_command), [mkdir](#reference_pebble_mkdir_command), [rm](#reference_pebble_rm_command), [exec](#reference_pebble_exec_command)
+* Changes: [changes](#reference_pebble_changes_command), [tasks](#reference_pebble_tasks_command)
+* Notices: [warnings](#reference_pebble_warnings_command), [okay](#reference_pebble_okay_command), [notices](#reference_pebble_notices_command), [notice](#reference_pebble_notice_command), [notify](#reference_pebble_notify_command)
+* Identities: [identities](#reference_pebble_identities_command), [identity](#reference_pebble_identity_command), [add-identities](#reference_pebble_add-identities_command), [update-identities](#reference_pebble_update-identities_command), [remove-identities](#reference_pebble_remove-identities_command)
+
+The subcommands are listed alphabetically below.
 
 
 (reference_pebble_add_command)=
